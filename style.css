@@ -1,0 +1,92 @@
+.customFont{
+  color: rgb(90, 90, 90);
+}
+#wrap{
+display: flex;
+flex-wrap: wrap;
+}
+#img{
+  position: relative;
+  height: 50%;
+  top: 30vh;
+  shape-rendering:crispEdges;
+  left:-5em;
+  
+}
+
+
+#box1{
+  width: 150px ;
+  justify-content: center;
+  align-items: center;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: rgb(114, 114, 114);
+  border-radius: 10px;
+  box-shadow: 10px 5px 15px;
+}
+#box2{
+  display: flex;
+  background-color: rgb(54, 54, 54);
+  width: 150px ;
+  justify-content: center;
+  align-items: center;
+  border-style:outset;
+  border-width: 10px;
+  border-color: rgb(114, 114, 114);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 10px 5px 15px #000;
+}
+#buttonHover:hover{
+  animation: buttonHover 2s 2s 1 linear;
+}
+@keyframes buttonHover{
+  
+}
+#box3{
+  background-color: rgb(54, 54, 54);
+  width: 150px ;
+  justify-content: center;
+  align-items: center;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: rgb(114, 114, 114);
+  border-radius: 10px;
+  box-shadow: 10px 5px 15px;
+}
+#box4{
+  background-color: rgb(54, 54, 54);
+  width: 150px ;
+  justify-content: center;
+  align-items: center;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: rgb(114, 114, 114);
+  border-radius: 10px;
+  box-shadow: 10px 5px 15px;
+}
+#box5{  background-color: rgb(54, 54, 54);
+  width:  ;
+  justify-content: center;
+  align-items: center;
+  border-style: ridge;
+  border-width: 100px;
+  border-color: rgb(114, 114, 114);
+  border-radius: 10px;
+  box-shadow: 10px 5px 15px;
+}
+#center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bg{
+  background-color:rgb(27, 27, 27);
+}
+#spaceBetween{
+  
+}
+img{
+  
+}
